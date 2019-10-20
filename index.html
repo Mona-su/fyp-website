@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>FYP 19042</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <!-- <link rel="stylesheet" href="style_timeline.css" type="text/css"> -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"> -->
+  <script src="jquery-3.3.1.js"></script>
+  <script src="script.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div id="header">
+  <ul>
+    <li><a href="#documents" class="bar-item button">Documents</a></li>
+    <li><a href="#timeline" class="bar-item button">Timeline</a></li>
+    <li><a href="#methodology" class="bar-item button">Methodology</a></li>
+    <li><a href="#title" class="bar-item button">Home</a></li>
+  </ul>
+</div>
+
+<div id = "title" class="title-image">
+  <div class="title-text">
+    <h1 style="font-size:50px">Computing Statistics on Encrypted Data With Blockchain</h1>
+    <h3 style="font-weight:normal">This project will introduce a protocol for collecting, analyzing the encrypted data and accessing the analyzed statistics (e.g. average, top x values, etc.) based on Blockchain.</h3>
+  </div>
+</div>
+
+<div id="methodology">
+  <img src="images/blockchain-ethereum.png">
+  <div class="content">
+    <div class="subtitle">
+      <h1>METHODOLOGY</h1>
+    </div>
+    <div class="ethereum">
+      <h2>Ethereum</h2>
+      <h3 style="font-weight:normal">Ethereum could be regarded as a programmable blockchain, on which developers coule develop their own applications and deploy it to the blockchain. This project will be using this platform to develop an application to collect data from data providers, and allow data requesters to access the computed statistics. It will also implement a miner algorithm to allow some miners compute the statistics on encrypted data and get rewards. <h3>
+      <h2>Encryption Scheme</h2>
+      <h3 style="font-weight:normal">This project will be implementing an asymmetric encryption schemem with double trapdoor decryption mechanism for data encryption, i.e. there will be different and uncorrelated keys used for encryption and decryption, and during decryption process, two decryption keys are required to get the final result. <h3>
+    </div>
+  </div>
+</div>
+
+<div id="timeline">
+  <div class="content">
+    <div class="subtitle">
+      <h1>TIMELINE</h1>
+    </div>
+    <img src="images/timeline.jpg">
+  </div>
+  <img src="images/timeline_color.jpg" class="image">
+</div>
+
+<div id="documents">
+  <div class="subtitle">
+    <h1 style="text-align: center">DOCUMENTATIONS</h1>
+  </div>
+  <div class="content">
+    <div class="file" align="center">
+      <a href='./documents/proposal.pdf'>Project Plan</a>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
